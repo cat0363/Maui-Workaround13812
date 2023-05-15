@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using UIKit;
 
 namespace Maui_Workaround13812.Platforms.iOS {
-    public class CustomCellViewHandler : ViewCellRenderer 
+    public class CustomViewCellHandler : ViewCellRenderer 
     {
         public override UITableViewCell GetCell(Cell item, UITableViewCell reusableCell, UITableView tv) 
         {
